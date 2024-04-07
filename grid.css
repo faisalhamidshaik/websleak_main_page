@@ -1,0 +1,830 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  font-family: inter;
+}
+* {
+  margin: 0;
+}
+.container {
+  /* padding-top: 30px; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  font-weight: bolder;
+  font-size: larger;
+}
+.right {
+  display: flex;
+  gap: 70px;
+  font-weight: bold;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* align-items: center;*/
+  justify-content: center;
+}
+.o {
+  background-color: black;
+  width: 40px;
+  height: 5px;
+}
+
+.t {
+  background-color: black;
+  width: 40px;
+  height: 5px;
+}
+
+.button {
+  color: white;
+  font-size: 16px;
+  background-color: black;
+  padding: 19.2px 24px;
+  border-radius: 4px;
+  font-size: 14.4px;
+}
+
+.container1 {
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container1 {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  padding: 20px 0px;
+  /* font-weight: bolder; */
+  font-size: larger;
+  align-items: center;
+  /* padding: 0px 550px; */
+}
+
+.center {
+  text-align: center;
+  width: 900px;
+  font-size: 50px;
+  /* padding: 0px 0px; */
+}
+
+.x {
+  /* padding: 0px 130px; */
+  text-align: center;
+  font-weight: 500;
+  font-size: 23px;
+  width: 550px;
+}
+
+#y {
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  /* padding: 40px 0; */
+  width: 550px;
+  text-align: center;
+}
+.b {
+  padding-top: 29px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.button1 {
+  color: black;
+  font-size: 16px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 12px 17px;
+  border-radius: 4px;
+}
+.z {
+  font-size: 19px;
+}
+
+
+.discover{
+  font-size: x-large;
+}
+.our{
+  font-size: x-large;
+}
+
+.container2 {
+  padding: 65px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container2 {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.container3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* gap: 50px; */
+}
+
+.main-container3 {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.container4 {
+  padding: 100px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main-container4 {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.heading {
+  font-weight: 600;
+  font-size: 50px;
+}
+.main-container4 h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.main-container4 .process {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+.p1 {
+  font-weight: 350;
+  font-size: 18px;
+  width: 30rem;
+  padding-bottom: 60px;
+}
+.buttonawesome {
+  color: white;
+  font-size: 16px;
+  background-color: black;
+  padding: 19.2px 10px;
+  /* margin-right: 400px;   dont do it cuz not required instead use width*/
+  text-align: center;
+  border-radius: 4px;
+  font-size: 14.4px;
+  width: 14rem;
+}
+
+.container5 {
+  padding: 100px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main-container5 {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.benefits {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container6 {
+  padding: 100px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main-container6 {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container7 {
+  padding: 100px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-container7 {
+  max-width: 1000px;
+  width: 100%;
+}
+.two_pics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container8 {
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+}
+
+.main-container8 {
+  max-width: 1300px;
+  width: 100%;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  background-color: #e4e4e4;
+  justify-content: space-between;
+  /* width: 400px; */
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.container9 {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.main-container9 {
+  max-width: 1300px;
+  width: 100%;
+}
+
+.lower_card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-top: 25px;
+}
+
+.name_designation {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.designation {
+  font-size: 10px;
+}
+.heading_last {
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.container10 {
+  padding: 150px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-container10 {
+  max-width: 1050px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.at {
+  font-size: 14px;
+  width: 1020px;
+  text-align: center;
+}
+.Booking {
+  margin-top: -19px;
+  width: 1000px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container11 {
+  /* padding: 150px 0px; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-container11 {
+  max-width: 800px;
+  width: 100%;
+}
+
+.form1 {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 2rem;
+}
+
+.form1 input {
+  border: none;
+}
+
+/* div */
+.input {
+  height: 60px;
+}
+
+/* box */
+input {
+  height: 60px;
+  outline: none;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.container12 {
+  padding: 80px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main-container12 {
+  max-width: 500px;
+  width: 100%;
+
+  text-align: center;
+}
+.button2 {
+  color: white;
+  font-size: 16px;
+  background-color: black;
+  padding: 19.2px 0px;
+  border-radius: 4px;
+  font-size: 14.4px;
+}
+
+footer {
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  padding: 4.5rem 0;
+  /* margin: -10px; */
+  /* padding: 80px 0px; */
+  /* height: 500px; */
+}
+
+.main-container13 {
+  max-width: 95%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  /* text-align: center; */
+}
+.lower-lf {
+  width: 39%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.femail {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.femail input {
+}
+.email-signup {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 30px;
+}
+.checkbox_agreement {
+  display: flex;
+  flex-direction: row;
+  margin-top: -50px;
+  align-items: center;
+  gap: 10px;
+  /* justify-content: center; */
+}
+
+.lower-rf {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.lower-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.email-signup button {
+  font-size: 20px;
+  font-weight: bold;
+}
+.Arrow-circle {
+  border: 1px solid white;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.A-circle {
+  width: 1.2rem;
+}
+
+.rf1 {
+  font-size: clamp(1.5rem, 2.5vw, 2.7rem);
+  font-weight: 400;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  width: 100%;
+}
+.mail_logo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.Arrow {
+  position: absolute;
+}
+
+.rf2 {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.Instagram {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 11px;
+  font-size: 25px;
+}
+
+.Facebook {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 11px;
+  font-size: 25px;
+}
+
+.LinkedIn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 11px;
+  font-size: 25px;
+}
+
+.Twitter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 11px;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    width: 100%;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  .center {
+    font-size: 34px;
+    width: 100%;
+  }
+
+  .button {
+    color: white;
+    font-size: clamp(0.5rem,1vw,1.3rem);
+    background-color: black;
+    /* padding: 1.2px 12px; */
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    /* font-size: 14.4px; */
+  }
+  .button1 {
+    color: black;
+    font-size: 14px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 12px 12px;
+    border-radius: 4px;
+  }
+
+  .x {
+    /* padding: 0px 130px; */
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    width: 85%;
+  }
+  #y {
+    font-size: 20 px;
+    font-weight: 400;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    /* padding: 40px 0; */
+    width: 90%;
+    text-align: center;
+  }
+  .main-container3 {
+    width: 100%;
+  }
+  .main-container4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 2rem;
+    text-align: center;
+  }
+  .main-container5 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .main-container .benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .main-container6 {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .main-container7 {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  /* .row1{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 50%;
+} */
+  .card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* height: 7rem; */
+    font-size: 8px;
+  }
+  .main-container10 {
+    width: 90%;
+  }
+  .main-container13 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lower-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .lower-lf {
+    width: 100%;
+  }
+  .lf2 {
+    width: 100%;
+  }
+  .email-signup {
+    width: 100%;
+  }
+  .checkbox_agreement {
+    margin-top: -80px;
+    margin-bottom: 8rem;
+
+    /* justify-content: center; */
+  }
+  .lower-rf {
+    width: 100%;
+  }
+  .rf2 {
+    width: 100%;
+  }
+  .main-container7 {
+    width: 100%;
+  }
+  .two_pics {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 2rem;
+  }
+  input {
+    font-size: clamp(2rem, 3vw, 3.3rem);
+    width: 50%;
+    
+  }
+  .form1 {
+    width: 85%;
+    padding: 0;
+    padding-left: 1rem;
+  }
+  .right {
+    display: flex;
+    font-size: 16px;
+    gap: 20px;
+    font-weight: bold;
+    height: 2rem;
+    padding-top:1.4rem ;
+  }
+  .p1 {
+    width: 100%;
+  }
+  .button2 {
+    width: 100%;
+  }
+
+  .Arrow-circle {
+    border: 1px solid white;
+    width: 3rem;
+    height: 6.3;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer {
+    width: 100%;
+  }
+  .rf1 {
+    font-size: clamp(1.2rem, 4vw, 4rem);
+    font-weight: 400;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 100%;
+  }
+  .A-circle {
+    width: 1.2rem;
+    padding: 3rem;
+  }
+  .heading_last {
+    font-weight: 600;
+    font-size: clamp(1.7rem, 2rem, 2.8rem);
+  }
+  .container8 {
+    /* padding-top: 30px; */
+    width: 100%;
+    overflow: hidden;
+    overflow-x: scroll;
+    /* display: flex;
+    flex-direction: row;
+  
+    justify-content: center; */
+  }
+  .main-container8 {
+    /* max-width: 1300px; */
+    width: 100%;
+  }
+  .container9 {
+    width: 100%;
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+  .main-container9 {
+    width: 100%;
+  }
+  /* .heading {
+    width: 50%;
+  } */
+  .right {
+    display: flex;
+    gap: 20px;
+    /* font-weight: bold; */
+  }
+  .o {
+    background-color: black;
+    width: 30px;
+    height: 5px;
+  }
+  .t {
+    background-color: black;
+    width: 30px;
+    height: 5px;
+  }
+  .websleak-1{
+    width: 90%;
+  }
+  .button1 {
+    color: black;
+    font-size: 14px;
+    background-color: white;
+    border: 1px solid black;
+    /* padding: 8px 1px; */
+    border-radius: 4px;
+  }
+  .discover{
+    font-size:2rem;
+    font-weight: 550;
+    text-align: center;
+  }
+  .our{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    font-weight: 550;
+  }
+  .buttonawesome {
+    /* color: white;
+    font-size: 16px;
+    background-color: black;
+    padding: 19.2px 10px;
+    margin-right: 400px;  
+    text-align: center;
+    border-radius: 4px; */
+    font-size: 12px;
+    width: 100%;
+  }
+ 
+
+
+  
+}
